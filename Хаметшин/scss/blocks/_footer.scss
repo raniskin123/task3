@@ -1,0 +1,21 @@
+footer {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  .columns {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    .column p {
+      margin-bottom: 15px;
+    }
+    .black {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 167%;
+      color: #0b132a;
+    }
+    .logofooter {
+      margin-bottom: 20px;
+    }
+  }
+}

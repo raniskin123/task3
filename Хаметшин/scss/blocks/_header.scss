@@ -1,0 +1,41 @@
+nav ul.nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 150px;
+  padding-top: 60px;
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    a {
+      font-weight: 400;
+      font-size: 16px;
+      color: #4f5665;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      &:hover {
+        color: #262a31;
+      }
+    }
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    a {
+      font-weight: 500;
+      font-size: 16px;
+      color: #0b132a;
+      text-decoration: none;
+    }
+    .btn {
+      font-weight: 500;
+      font-size: 16px;
+      color: #f53855;
+      padding: 13px 45px;
+      border: 1px solid #f53855;
+      border-radius: 50px;
+    }
+  }
+}
